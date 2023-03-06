@@ -6,6 +6,7 @@ import SearchForm from './components/SearchForm';
 import LogIn from './components/LogIn';
 import LogOut from './components/LogOut';
 import AddPet from './components/AddPet';
+import SignUp from './components/SignUp';
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
@@ -22,6 +23,7 @@ function App() {
         <Route path = "/petlist" element = {<PetList/>}/>
         <Route path = "/addpet" element = {<AddPet/>}/>
         <Route path = "/searchform" element = {<SearchForm/>}/>
+        <Route path = "/signup" element = {<SignUp/>}/>
         <Route path = "/login" element = {<LogIn/>}/>
         <Route path = "/logout" element = {<LogOut/>}/>
        

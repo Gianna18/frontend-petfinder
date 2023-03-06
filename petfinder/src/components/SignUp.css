@@ -1,0 +1,46 @@
+/* CSS for the sign-up form */
+.login--container{
+    background-image: url("../..//public/images/images/cat-gd2557fffd_1920.jpg");
+    background-size: cover;
+    height: 120vh;
+  } 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #0077FF;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0052D6;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
