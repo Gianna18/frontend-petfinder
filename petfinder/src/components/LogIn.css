@@ -1,0 +1,50 @@
+.login--container{
+    background-image: url("../..//public/images/images/husky-gd30ed458e_1920.jpg");
+    background-size: cover;
+    height: 120vh;
+  } 
+  label{
+    text-align: left;
+  }
+  button  {
+      background-color: #011b44;
+      width: 80%;
+      color: rgb(8, 159, 2);
+      padding: 15px;
+      margin: 10px 0px;
+      border: none;
+      cursor: pointer;
+    }
+   
+    #login--form input[type="text"],
+    input[type="password"] {
+      width: 80%;
+      margin: 8px 10px;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 2px solid #cadbf8;
+      box-sizing: border-box;
+    }
+    button:hover {
+      opacity: 0.7;
+    }
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      margin: 10px 5px;
+    }
+    
+    .details-container {
+      position: absolute;
+      padding: 25px;
+      background-color: rgb(3, 34, 85);
+      border: 3px solid #f1f1f1;
+      margin-left: 460px;
+      margin-top: 100px;
+      width: 50%;
+      height: 50vh;
+      opacity: 70%;
+    }
+    h1{
+      text-align: center;
+    }
