@@ -8,7 +8,7 @@ function SearchForm(){
 const pets = useStore(petsStore)
 const handleSearch = (e) => {
     console.log(e.target.value)
-axios.post('http://localhost:9292/pets/search_all',{
+axios.post('https://wamae-pet-finder.onrender.com/pets/search_all',{
     query: e.target.value
 }).then( (r) =>
     pets.setPetsStore(r.data)
