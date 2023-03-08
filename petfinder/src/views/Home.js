@@ -5,6 +5,7 @@ function Home() {
        <div className="Home">
         <h1>WELCOME TO THE PETFINDER</h1>
           <h2>HELLO THERE, ARE YOU LOOKING FOR A NEW PET?</h2>
+          <h4>For the newbies, SignUp and for the OGs just login</h4>
       <div className ="container">
         <div className='first'>
         <img src = "/images/images/andrew-s-ouo1hbizWwo-unsplash.jpg" />
